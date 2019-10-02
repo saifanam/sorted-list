@@ -1,14 +1,16 @@
 ## Sample Input:
 
-`node sortedList.js 'Louis IX' 'Louis VIII' 'David II'`
-<br />
-`node sortedList.js 'George VI' 'William IX' 'Elizabeth I' 'William VI'`
+```javascript
+node sortedList.js 'Louis IX' 'Louis VIII' 'David II'
+node sortedList.js 'George VI' 'William IX' 'Elizabeth I' 'William VI'
+```
 
 ## Sample Output:
 
-`[ 'David II', 'Louis VIII', 'Louis IX' ]`
-<br />
-`[ 'Elizabeth I', 'George VI', 'William VI', 'William IX' ]`
+```javascript
+[ 'David II', 'Louis VIII', 'Louis IX' ]
+[ 'Elizabeth I', 'George VI', 'William VI', 'William IX' ]
+```
 
 ## Sorted List
 
@@ -30,4 +32,4 @@ Each name is a single string composed of firstName and ordinal, separated by a s
 ordinal is a valid Roman numeral representing a number between 1 and 50, inclusive.
 
 The length of firstName will be between 1 and 20.
-Each firstName comprises only uppercase and lowercase ascii characters [A-Za-z].
+Each firstName comprises only uppercase and lowercase ascii characters `[A-Za-z]`.
